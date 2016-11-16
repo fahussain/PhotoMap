@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D08E3B3A4E4C5ABC99B4F54A /* Pods_PhotoMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA378426D330BA958204C9BE /* Pods_PhotoMap.framework */; };
 		F74E23791DDD01EF00385B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74E23781DDD01EF00385B37 /* AppDelegate.swift */; };
 		F74E237B1DDD01EF00385B37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74E237A1DDD01EF00385B37 /* ViewController.swift */; };
-		F74E237E1DDD01EF00385B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74E237C1DDD01EF00385B37 /* Main.storyboard */; };
 		F74E23801DDD01EF00385B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74E237F1DDD01EF00385B37 /* Assets.xcassets */; };
 		F74E23831DDD01EF00385B37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74E23811DDD01EF00385B37 /* LaunchScreen.storyboard */; };
+		F74E238D1DDD03A500385B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74E238C1DDD03A500385B37 /* Main.storyboard */; };
+		F74E23921DDD03E000385B37 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74E238E1DDD03E000385B37 /* LocationsViewController.swift */; };
+		F74E23931DDD03E000385B37 /* PhotoMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74E238F1DDD03E000385B37 /* PhotoMapViewController.swift */; };
+		F74E23941DDD03E000385B37 /* FullImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74E23901DDD03E000385B37 /* FullImageViewController.swift */; };
+		F74E23951DDD03E000385B37 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74E23911DDD03E000385B37 /* LocationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C14364B05E2CAA2A7B16D51D /* Pods-PhotoMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoMap/Pods-PhotoMap.debug.xcconfig"; sourceTree = "<group>"; };
+		DA378426D330BA958204C9BE /* Pods_PhotoMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6C2EBEC646982C2B4EA9D8 /* Pods-PhotoMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoMap/Pods-PhotoMap.release.xcconfig"; sourceTree = "<group>"; };
 		F74E23751DDD01EF00385B37 /* PhotoMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74E23781DDD01EF00385B37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F74E237A1DDD01EF00385B37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F74E237D1DDD01EF00385B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F74E237F1DDD01EF00385B37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F74E23821DDD01EF00385B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F74E23841DDD01EF00385B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74E238C1DDD03A500385B37 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F74E238E1DDD03E000385B37 /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		F74E238F1DDD03E000385B37 /* PhotoMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMapViewController.swift; sourceTree = "<group>"; };
+		F74E23901DDD03E000385B37 /* FullImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullImageViewController.swift; sourceTree = "<group>"; };
+		F74E23911DDD03E000385B37 /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D08E3B3A4E4C5ABC99B4F54A /* Pods_PhotoMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		907534A389916A1EE998A6C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C14364B05E2CAA2A7B16D51D /* Pods-PhotoMap.debug.xcconfig */,
+				DC6C2EBEC646982C2B4EA9D8 /* Pods-PhotoMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C2983E529249C80061401BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA378426D330BA958204C9BE /* Pods_PhotoMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F74E236C1DDD01EF00385B37 = {
 			isa = PBXGroup;
 			children = (
 				F74E23771DDD01EF00385B37 /* PhotoMap */,
 				F74E23761DDD01EF00385B37 /* Products */,
+				907534A389916A1EE998A6C1 /* Pods */,
+				9C2983E529249C80061401BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,34 @@
 		F74E23771DDD01EF00385B37 /* PhotoMap */ = {
 			isa = PBXGroup;
 			children = (
+				F74E23971DDD041500385B37 /* Views */,
+				F74E23961DDD040500385B37 /* View Controllers */,
+				F74E238C1DDD03A500385B37 /* Main.storyboard */,
 				F74E23781DDD01EF00385B37 /* AppDelegate.swift */,
 				F74E237A1DDD01EF00385B37 /* ViewController.swift */,
-				F74E237C1DDD01EF00385B37 /* Main.storyboard */,
 				F74E237F1DDD01EF00385B37 /* Assets.xcassets */,
 				F74E23811DDD01EF00385B37 /* LaunchScreen.storyboard */,
 				F74E23841DDD01EF00385B37 /* Info.plist */,
 			);
 			path = PhotoMap;
+			sourceTree = "<group>";
+		};
+		F74E23961DDD040500385B37 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F74E238E1DDD03E000385B37 /* LocationsViewController.swift */,
+				F74E238F1DDD03E000385B37 /* PhotoMapViewController.swift */,
+				F74E23901DDD03E000385B37 /* FullImageViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F74E23971DDD041500385B37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F74E23911DDD03E000385B37 /* LocationCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F74E23871DDD01EF00385B37 /* Build configuration list for PBXNativeTarget "PhotoMap" */;
 			buildPhases = (
+				D5906326A779AB66152A8118 /* [CP] Check Pods Manifest.lock */,
 				F74E23711DDD01EF00385B37 /* Sources */,
 				F74E23721DDD01EF00385B37 /* Frameworks */,
 				F74E23731DDD01EF00385B37 /* Resources */,
+				08AF2184438D85F36E747F25 /* [CP] Embed Pods Frameworks */,
+				282891C091E7BAFEF6A6AF85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +180,77 @@
 			files = (
 				F74E23831DDD01EF00385B37 /* LaunchScreen.storyboard in Resources */,
 				F74E23801DDD01EF00385B37 /* Assets.xcassets in Resources */,
-				F74E237E1DDD01EF00385B37 /* Main.storyboard in Resources */,
+				F74E238D1DDD03A500385B37 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08AF2184438D85F36E747F25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoMap/Pods-PhotoMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		282891C091E7BAFEF6A6AF85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoMap/Pods-PhotoMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5906326A779AB66152A8118 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F74E23711DDD01EF00385B37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F74E23951DDD03E000385B37 /* LocationCell.swift in Sources */,
+				F74E23941DDD03E000385B37 /* FullImageViewController.swift in Sources */,
 				F74E237B1DDD01EF00385B37 /* ViewController.swift in Sources */,
 				F74E23791DDD01EF00385B37 /* AppDelegate.swift in Sources */,
+				F74E23931DDD03E000385B37 /* PhotoMapViewController.swift in Sources */,
+				F74E23921DDD03E000385B37 /* LocationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F74E237C1DDD01EF00385B37 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F74E237D1DDD01EF00385B37 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F74E23811DDD01EF00385B37 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -256,6 +355,7 @@
 		};
 		F74E23881DDD01EF00385B37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C14364B05E2CAA2A7B16D51D /* Pods-PhotoMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoMap/Info.plist;
@@ -268,6 +368,7 @@
 		};
 		F74E23891DDD01EF00385B37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC6C2EBEC646982C2B4EA9D8 /* Pods-PhotoMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoMap/Info.plist;
@@ -297,6 +398,7 @@
 				F74E23891DDD01EF00385B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
