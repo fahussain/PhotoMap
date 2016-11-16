@@ -34,6 +34,7 @@
 		F74E238F1DDD03E000385B37 /* PhotoMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMapViewController.swift; sourceTree = "<group>"; };
 		F74E23901DDD03E000385B37 /* FullImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullImageViewController.swift; sourceTree = "<group>"; };
 		F74E23911DDD03E000385B37 /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		F74E23981DDD066B00385B37 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		9C2983E529249C80061401BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F74E23981DDD066B00385B37 /* MapKit.framework */,
 				DA378426D330BA958204C9BE /* Pods_PhotoMap.framework */,
 			);
 			name = Frameworks;

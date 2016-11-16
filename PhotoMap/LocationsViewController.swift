@@ -12,7 +12,7 @@ class LocationsViewController: UIViewController, UITableViewDelegate, UITableVie
 
     // TODO: Fill in actual CLIENT_ID and CLIENT_SECRET
     let CLIENT_ID = "Client Id goes here"
-    let CLIENT_SECRET = "Client secret goes here"
+    let CLIENT_SECRET = "Client Secret goes here"
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
